@@ -1,0 +1,20 @@
+apt install nginx -y
+    2  apt update -y\
+    3  systemctl start nginx
+    4  systemctl enable nginx
+    5  systemctl status nginx
+    6  git clone https://github.com/omkeo/Practice-App.git
+    7  ls
+    8  cd Practice-App/
+    9  ls
+   10  cd AWS/
+   11  ls
+   12  cp . -r /var/www/html/
+   13  cd /var/www/html/
+   14  ls
+   15  rm -rfv s*
+   16  rm -rfv index.html 
+   17  curl 15.168.3.129
+   18  cd
+   19  ls
+   20  history 
